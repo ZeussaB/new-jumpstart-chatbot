@@ -1,0 +1,15 @@
+# Ignore Python virtual environments
+venv/
+env/
+
+# Rasa cache and logs
+.rasa/
+*.db
+*.log
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# VSCode settings
+.vscode/
