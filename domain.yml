@@ -8,6 +8,19 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_shipping
+  - ask_return_policy
+  - ask_store_hours
+  - ask_contact_info
+  - ask_order_status
+  - ask_payment_methods
+  - ask_product_availability
+  - ask_discount
+  - ask_loyalty_program
+  - ask_store_location
+  - ask_account_help
+  - ask_product_care
+  - ask_size_guide
 
 responses:
   utter_greet:
@@ -28,6 +41,45 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_ask_shipping:
+    - text: "Shipping usually takes 3-5 business days. You can track your order via your account."
+
+  utter_ask_return_policy:
+    - text: "You can return items within 30 days of purchase. Visit our returns page for full instructions."
+
+  utter_ask_store_hours:
+    - text: "Our store is open from 9 AM to 9 PM, Monday to Saturday, and 10 AM to 6 PM on Sundays." 
+
+  utter_ask_contact_info:
+    - text: "You can contact customer support at askinfo@email.com"
+
+  utter_ask_order_status:
+    - text: "To check your order status, please log into your Jumpstart account and go to 'My Orders'."
+
+  utter_ask_payment_methods:
+    - text: "We accept major credit cards, PayPal, GCash, and cash on delivery."
+
+  utter_ask_product_availability:
+    - text: "Product availability depends on stock. You can check online or in your nearest store."
+
+  utter_ask_discount:
+    - text: "We run regular promotions. Check the homepage banner or subscribe to our newsletter for updates!"
+  
+  utter_ask_loyalty_program:
+    - text: "Our loyalty program lets you earn points for every purchase. Points can be redeemed for discounts and exclusive rewards."
+
+  utter_ask_store_location:
+    - text: "You can use our store locator at jumpstart.ph/stores to find the nearest location based on your city or ZIP code."
+
+  utter_ask_account_help:
+    - text: "To reset your password, go to the login page and click on 'Forgot Password'. We will send a reset link to your email."
+
+  utter_ask_product_care:
+    - text: "Product care varies. Most items have a care tag. For example, cotton can be machine washed, while delicate fabrics may require hand washing."
+
+  utter_ask_size_guide:
+    - text: "You can find our size guide on each product page. Sizes follow standard PH sizing but may differ by brand."
 
 session_config:
   session_expiration_time: 60

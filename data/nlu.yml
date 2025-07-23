@@ -89,3 +89,100 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: ask_shipping
+  examples: |
+    - where is my order?
+    - how long does delivery take?
+    - tell me about shipping
+    - when will my order arrive?
+
+- intent: ask_return_policy
+  examples: |
+    - can I return an item?
+    - what's your return policy?
+    - how do I return something?
+    - can I get a refund?
+
+- intent: ask_store_hours
+  examples: |
+    - What are your store hours?
+    - When do you open?
+    - Is the store open now?
+    - Are you open on Sundays?
+    - What time do you close?
+
+
+- intent: ask_contact_info
+  examples: |
+    - How can I contact customer support?
+    - What is your contact information?
+    - How do I reach you?
+    - Can I get your email address?
+
+- intent: ask_order_status
+  examples: |
+    - where is my order?
+    - track my order
+    - what's the status of my order?
+    - has my package shipped yet?
+
+- intent: ask_payment_methods
+  examples: |
+    - what payment methods do you accept?
+    - can I pay with PayPal?
+    - do you accept credit cards?
+    - can I use cash on delivery?
+
+- intent: ask_product_availability
+  examples: |
+    - is this item in stock?
+    - do you have size medium?
+    - will this be restocked?
+    - can I order this product?
+
+- intent: ask_discount
+  examples: |
+    - do you have any discounts?
+    - any promotions now?
+    - coupon codes available?
+    - are there any sales happening?
+
+- intent: ask_loyalty_program
+  examples: |
+    - how does your loyalty program work?
+    - do you offer rewards for frequent shoppers?
+    - tell me about your points system
+    - how can I earn and redeem loyalty points?
+
+- intent: ask_store_location
+  examples: |
+    - where is your nearest store?
+    - do you have a branch in Cebu?
+    - find a store near me
+    - store locator?
+    - Can I find a branch near me?
+    - What is the store location?
+    - Do you have a store?
+    - Where can I shop in person?
+
+- intent: ask_account_help
+  examples: |
+    - I forgot my password
+    - how do I reset my login?
+    - I can't log in
+    - help me access my account
+
+- intent: ask_product_care
+  examples: |
+    - how do I wash this blouse?
+    - product care instructions?
+    - can I iron this shirt?
+    - how do I take care of leather bags?
+
+- intent: ask_size_guide
+  examples: |
+    - how do I know my size?
+    - size guide please
+    - is your sizing true to size?
+    - what's medium in US sizes?

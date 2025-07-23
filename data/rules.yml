@@ -11,3 +11,68 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Answer shipping question
+  steps:
+    - intent: ask_shipping
+    - action: utter_ask_shipping
+
+- rule: Answer return policy question
+  steps:
+    - intent: ask_return_policy
+    - action: utter_ask_return_policy
+
+- rule: Answer store hours question
+  steps:    
+    - intent: ask_store_hours
+    - action: utter_ask_store_hours
+
+- rule: Answer contact info question
+  steps:
+    - intent: ask_contact_info
+    - action: utter_ask_contact_info
+
+- rule: Order status help
+  steps:
+    - intent: ask_order_status
+    - action: utter_ask_order_status
+
+- rule: Accepted payment methods
+  steps:
+    - intent: ask_payment_methods
+    - action: utter_ask_payment_methods
+
+- rule: Product availability
+  steps:
+    - intent: ask_product_availability
+    - action: utter_ask_product_availability
+
+- rule: Give discounts info
+  steps:
+    - intent: ask_discount
+    - action: utter_ask_discount
+
+- rule: Loyalty program info
+  steps:
+    - intent: ask_loyalty_program
+    - action: utter_ask_loyalty_program
+
+- rule: Find store location
+  steps:
+    - intent: ask_store_location
+    - action: utter_ask_store_location
+
+- rule: Help with account
+  steps:
+    - intent: ask_account_help
+    - action: utter_ask_account_help
+
+- rule: Product care guide
+  steps:
+    - intent: ask_product_care
+    - action: utter_ask_product_care
+
+- rule: Size guide
+  steps:
+    - intent: ask_size_guide
+    - action: utter_ask_size_guide
