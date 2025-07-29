@@ -96,6 +96,14 @@ nlu:
     - how long does delivery take?
     - tell me about shipping
     - when will my order arrive?
+    - how long does it take to get my package?
+    - when will I get my delivery?
+    - what's the estimated shipping time?
+    - is shipping free?
+    - do you offer express shipping?
+    - can I choose a delivery time?
+    - who handles your deliveries?
+    - do you ship internationally?
 
 - intent: ask_return_policy
   examples: |
@@ -103,6 +111,13 @@ nlu:
     - what's your return policy?
     - how do I return something?
     - can I get a refund?
+    - how long do I have to return an item?
+    - is there a return fee?
+    - do you offer free returns?
+    - what is the process to return a product?
+    - can I exchange instead of returning?
+    - do I need the receipt to return?
+    - where do I send the item back?
 
 - intent: ask_store_hours
   examples: |
@@ -111,7 +126,13 @@ nlu:
     - Is the store open now?
     - Are you open on Sundays?
     - What time do you close?
-
+    - what time do you open and close?
+    - are you open on holidays?
+    - are you open today?
+    - do you have weekend hours?
+    - what are your business hours?
+    - when does the store close?
+    - can I visit in the evening?
 
 - intent: ask_contact_info
   examples: |
@@ -119,6 +140,13 @@ nlu:
     - What is your contact information?
     - How do I reach you?
     - Can I get your email address?
+    - how do I talk to someone?
+    - is there a phone number I can call?
+    - what's your customer service number?
+    - how can I message you?
+    - do you have live chat?
+    - can I email you?
+    - where can I find support?
 
 - intent: ask_order_status
   examples: |
@@ -126,6 +154,13 @@ nlu:
     - track my order
     - what's the status of my order?
     - has my package shipped yet?
+    - has my order been shipped?
+    - when will my package arrive?
+    - update me on my order
+    - what's going on with my order?
+    - order tracking info please
+    - give me an update on my delivery
+    - show me my shipping status
 
 - intent: ask_payment_methods
   examples: |
@@ -133,6 +168,14 @@ nlu:
     - can I pay with PayPal?
     - do you accept credit cards?
     - can I use cash on delivery?
+    - do you take bank transfers?
+    - what cards do you take?
+    - can I pay in installments?
+    - do you support GCash or GrabPay?
+    - can I use Apple Pay?
+    - do you have cash on delivery?
+    - can I pay via bank transfer?
+    - any mobile wallet options?
 
 - intent: ask_product_availability
   examples: |
@@ -140,6 +183,13 @@ nlu:
     - do you have size medium?
     - will this be restocked?
     - can I order this product?
+    - is this still available?
+    - do you still have this in stock?
+    - will you restock soon?
+    - when will this be available again?
+    - can I pre-order this?
+    - is this product available in-store?
+    - do you carry this item?
 
 - intent: ask_discount
   examples: |
@@ -147,6 +197,13 @@ nlu:
     - any promotions now?
     - coupon codes available?
     - are there any sales happening?
+    - do you have a promo right now?
+    - any ongoing sales?
+    - are there discounts this week?
+    - how can I get a discount?
+    - do you offer first-time buyer discounts?
+    - is there a student discount?
+    - how do I apply a promo code?
 
 - intent: ask_loyalty_program
   examples: |
@@ -154,6 +211,13 @@ nlu:
     - do you offer rewards for frequent shoppers?
     - tell me about your points system
     - how can I earn and redeem loyalty points?
+    - do you have a membership program?
+    - how do I join your rewards program?
+    - what are the loyalty benefits?
+    - do points expire?
+    - how do I check my points?
+    - can I use points for discounts?
+    - what do I get for being a loyal customer?
 
 - intent: ask_store_location
   examples: |
@@ -172,6 +236,13 @@ nlu:
     - how do I reset my login?
     - I can't log in
     - help me access my account
+    - I need help logging in
+    - can't access my account
+    - how do I change my password?
+    - how do I recover my username?
+    - account login issues
+    - forgot my login info
+    - my account is locked
 
 - intent: ask_product_care
   examples: |
@@ -179,6 +250,13 @@ nlu:
     - product care instructions?
     - can I iron this shirt?
     - how do I take care of leather bags?
+    - what's the best way to clean this?
+    - can this go in the washer?
+    - how should I care for this item?
+    - is it safe to tumble dry this?
+    - does this need dry cleaning?
+    - can I machine wash this product?
+    - how do I remove stains from this fabric?
 
 - intent: ask_size_guide
   examples: |
@@ -186,3 +264,10 @@ nlu:
     - size guide please
     - is your sizing true to size?
     - what's medium in US sizes?
+    - can you help me find my size?
+    - do you have a sizing chart?
+    - how does your sizing run?
+    - is this a slim fit or loose fit?
+    - does this brand run small?
+    - what size should I get?
+    - do you offer plus sizes?
